@@ -1,6 +1,7 @@
 
 .nav img{
     cursor: pointer;
+    margin-left: 2cm;
 }
 
 .location{
@@ -22,7 +23,7 @@
     display: flex;              
     gap: 1.5cm;
     font-size: 23px;
-    padding: 20px 2cm  0 5cm;
+    padding: 20px 4cm  0 7cm;
     cursor: pointer;
 }
 .nav ul li{
@@ -34,7 +35,7 @@ input{
     height: 40px;
     border-radius: 10px;
     font-size: 18px;
-    margin-top: 30px;
+    margin: 30px  0 0;
     cursor: pointer;
     
     padding-left: 2cm;
@@ -42,7 +43,7 @@ input{
 .search-icon{
     position: relative;
     cursor: pointer;
-    right: 23%;
+    right: 22%;
     top: 45px;
     font-size: 20px;
 }
