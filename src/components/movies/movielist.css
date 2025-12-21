@@ -7,7 +7,7 @@
 }
 
 .movie-card {
-  margin-left: 1cm;
+  margin: 0 1cm 0 0;
   border: 2px solid rgb(224, 215, 215);
   background: #ffffff;
   border-radius: 14px;
@@ -23,14 +23,14 @@
 }
 
 .movie-card h3 {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 600;
   margin: 12px 12px 4px;
   color: #222;
 }
 
 .movie-card p {
-  font-size: 18px;
+  font-size: 15px;
   color: #666;
   margin: 0 12px 14px;
 }

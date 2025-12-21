@@ -9,7 +9,7 @@ function Header() {
   return (
     <div>
       <div className='nav'>
-        <img src="/cinebook.png" alt="" width='200px'/>
+        <img src="/cinebook.png" alt="" width='150px'/>
         <div className='location'>
            <FaLocationDot className="loc-icon" />
            <span>Chennai</span>
@@ -26,7 +26,7 @@ function Header() {
         
             <input type="text" placeholder="Search movies.cinema and more"  className="search"/>
             <FaSearch className="search-icon" />
-            <button className='btn btn-first'>Sing in</button>
+            <button className='btn btn-first'>Sign in</button>
       </div>
     </div>
   )

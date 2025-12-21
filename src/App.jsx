@@ -6,7 +6,7 @@ import Movielist from './components/movies/movielist'
 function App() {
 
   const img = [
-    { id: 1, image: '/Avatar.jpg', heading: 'Avatar: Fire and Ash', p: 'UA16+ Tamil, English +2 languages' },
+    { id: 1, image: '/Avatar.jpg', heading: 'Avatar: Fire and Ash', p: 'UA16+ Tamil' },
     { id: 2, image: '/TereIshkMei.jpg', heading: 'TereIshkMei', p: 'UA16+ Tamil' },
     { id: 3, image: '/Padayappa.jpg', heading: 'Padayappa', p: 'UA Tamil' },
     { id: 4, image: '/Kombuseevi.jpg', heading: 'Kombuseevi', p: 'UA13+ Tamil' },
