@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './components/header/header'
 import Sideimg from './components/imageslide/sideimg'
 import Movielist from './components/movies/movielist'
-
+import Footer from './components/footer/footer'
 function App() {
 
   const img = [
@@ -34,6 +34,7 @@ function App() {
           <Movielist key={val.id} val={val} />
         ))}
       </div>
+      <Footer/>
     </div>
   )
 }
