@@ -1,8 +1,11 @@
 import React from 'react'
+import { Routes, Route } from "react-router-dom";
+import './App.css'
 import Header from './components/header/header'
 import Sideimg from './components/imageslide/sideimg'
 import Movielist from './components/movies/movielist'
 import Footer from './components/footer/footer'
+import Newmve from './components/upcomemve/newmve'
 function App() {
 
   const img = [
@@ -25,15 +28,25 @@ function App() {
   ]
 
   return (
-    <div>
+    <div className="app-layout">
       <Header />
-      <Sideimg />
+      <main className="page-content">
 
-      <div className="movies">
-        {img.map((val) => (
-          <Movielist key={val.id} val={val} />
-        ))}
-      </div>
+      <Routes>
+        
+        <Route path="/" element={
+          <div>
+              <Sideimg />
+              <div className="movies">
+                {img.map((val) => (
+                  <Movielist key={val.id} val={val} />
+                ))}
+              </div>
+            </div>
+          }/>
+        <Route path="/movie/:id" element={<Newmve />} />
+      </Routes>
+      </main>
       <Footer/>
     </div>
   )

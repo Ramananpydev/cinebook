@@ -3,7 +3,7 @@
   height: 300px;   
   position: relative;       
   overflow: hidden;
-  margin-top: 80px;    
+  /* margin-top: 80px;     */
 }
 .banner img {
   width: 100%;
@@ -15,7 +15,7 @@
 .prev,
 .next {
   position: absolute;
-  top: 38%;
+  top: 35%;
   transform: translateY(-50%);
   background: rgba(121, 108, 108, 0.5);
   color: white;

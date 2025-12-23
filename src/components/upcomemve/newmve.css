@@ -1,0 +1,124 @@
+.movie-banner {
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+   margin-bottom: 20cm;
+}
+
+.overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+}
+
+.movie-content {
+  display: flex;
+  gap: 30px;
+  padding: 60px;
+}
+
+.poster {
+  width: 260px;
+  border-radius: 10px;
+}
+
+.details h1 {
+  font-size: 38px;
+  margin-bottom: 25px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 2px solid rgb(136, 133, 127);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.rating i{
+    color: #f84464;
+}
+.rate-btn {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 3cm;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.meta {
+  font-size: 15px;
+  opacity: 0.9;
+  margin-bottom: 32px;
+}
+
+.tags span {
+  background: #333;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.book-btn {
+  margin-top: 30px;
+  background: #f84464;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.about{
+    color: black;
+    font-size: 20px;
+    padding-left:50px;
+    margin-top: 1cm;
+}
+.abp{
+    color: #413f3f;
+    font-size: 20px;
+    margin-top: 1cm;
+}
+.abp span{
+    display: flex;
+}
+
+.top-offer{
+    color: black;
+    font-size: 20px;
+    padding-left:50px;
+    margin-top: 1cm;
+}
+
+.offer-text{
+    text-align: center;
+    margin-top: 1cm;
+}
+.btns{
+    cursor: pointer;
+    font-size: 20px;
+    color: #413f3f;
+    position: relative;
+    right: 250px;
+    bottom: 20px;
+    margin: 0 0 0 15cm ;
+    background: none;
+    border: none;
+}
+.offer{
+    margin-top: 2cm;
+    /* background-image: url('../../../public/ticket.avif'); */
+    background-size: contain;
+    /* border: 2px solid rgb(80, 78, 78); */
+    border-radius: 10px;
+    margin-right: 40px;
+}
