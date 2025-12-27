@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaHeart } from "react-icons/fa";
 import './theatres.css'
+import { useState } from 'react';
 
 
 const theatreData = [
@@ -65,8 +66,8 @@ const theatreData = [
     times: ["11:45 AM", "04:10 PM", "08:30 PM"]
   }
 ];
-
 function Theatres() {
+      const [heart, setHeart] = useState();
   return (
     <div>
       <img src="buy.jpg" alt="" className='mvbanner' />
@@ -95,7 +96,7 @@ function Theatres() {
               <h3>{theatre.name}</h3>
               <p>{theatre.distance}</p>
             </div>
-            <FaHeart />
+            <FaHeart onClick={()=>setHeart()} />
           </div>
 
           <div className="showtime-list">

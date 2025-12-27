@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route } from "react-router-dom";
+import {  BrowserRouter ,Routes, Route } from "react-router-dom";
 import './App.css'
 import Header from './components/header/header'
 import Sideimg from './components/imageslide/sideimg'
@@ -32,6 +32,7 @@ function App() {
   ]
 
   return (
+    <BrowserRouter>
     <div className="app-layout">
       <Header />
       <main className="page-content">
@@ -41,12 +42,10 @@ function App() {
           <Route path="/theatres" element={<Theatres />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/" element={
-          <div>
-              <Sideimg />
+          <div><Sideimg />
               <div className="movies">
                 {img.map((val) => (
-                  <Movielist key={val.id} val={val} />
-                ))}
+                  <Movielist key={val.id} val={val} />))}
               </div>
             </div>
           }/>
@@ -56,6 +55,7 @@ function App() {
       </main>
       <Footer/>
     </div>
+    </BrowserRouter>
   )
 }
 

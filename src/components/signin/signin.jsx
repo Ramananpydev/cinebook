@@ -5,8 +5,8 @@ import './signin.css'
 
 function SignIn({ onClose }) {
   return (
-    <div className="signin-overlay">
-      <div className="signin-card">
+    <div className="signin-overlay" onClick={onClose} >
+      <div className="signin-card" onClick={(e) => e.stopPropagation()}>
 
         <button className="close-btn" onClick={onClose}>✕</button>
 
