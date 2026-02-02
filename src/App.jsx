@@ -7,7 +7,7 @@ import Movielist from './components/movies/movielist'
 import Footer from './components/footer/footer'
 import Newmve from './components/upcomemve/newmve'
 import BookTicket from './components/booking/booking';
-import Movie from './pages/movie';
+import Movie from './pages/movie';  
 import Theatres from './pages/theatres';
 import Orders from './pages/order/order';
 function App() {
@@ -32,7 +32,7 @@ function App() {
   ]
 
   return (
-    <BrowserRouter>
+   
     <div className="app-layout">
       <Header />
       <main className="page-content">
@@ -55,7 +55,6 @@ function App() {
       </main>
       <Footer/>
     </div>
-    </BrowserRouter>
   )
 }
 
