@@ -22,7 +22,7 @@ function App() {
     { id: 7, image: `${import.meta.env.BASE_URL}BhaBhaBa.jpg`, heading: 'Bha BHa BA', p: 'UA13+ Malayalam' },
     { id: 8, image: `${import.meta.env.BASE_URL}VinnaiTV.avif`, heading: 'Vinnaithandi Varuvaya', p: 'UA Tamil' },
     { id: 9, image: `${import.meta.env.BASE_URL}Anaconda.webp`, heading: 'Anaconda', p: 'UA16+ Tamil, English +2 languages' },
-    { id: 10, image:`${import.meta.env.BASE_URL}/RettaThala.jpg`, heading: 'Retta Thala', p: 'UA16+ Tamil' },
+    { id: 10, image:`${import.meta.env.BASE_URL}RettaThala.jpg`, heading: 'Retta Thala', p: 'UA16+ Tamil' },
     { id: 11, image:`${import.meta.env.BASE_URL}MissionSanta.jpg`, heading: 'Mission Santa', p: 'U  English ' },
     { id: 12, image:`${import.meta.env.BASE_URL}Zootopia.jpg`, heading: 'Zootopia', p: 'UA7+ Tamil, English ' },
     // { id: 13, image: '/akhada.jpg', heading: 'Akhada', p: 'UA16+ Tamil, Telugu' },
