@@ -15,7 +15,7 @@ function App() {
   const img = [
     { id: 1, image: `${import.meta.env.BASE_URL}Avatar.jpg`, heading: 'Avatar: Fire and Ash', p: 'UA16+ Tamil' },
     { id: 2, image: `${import.meta.env.BASE_URL}TereIshkMei.jpg`, heading: 'TereIshkMei', p: 'UA16+ Tamil' },
-    { id: 3, image: `${import.meta.env.BASE_URL} Sirai.jpg`, heading: 'Sirai', p: 'UA16+ Tamil' },
+    { id: 3, image: `${import.meta.env.BASE_URL}Sirai.jpg`, heading: 'Sirai', p: 'UA16+ Tamil' },
     { id: 4, image: `${import.meta.env.BASE_URL}Kombuseevi.jpg`, heading: 'Kombuseevi', p: 'UA13+ Tamil' },
     { id: 5, image: `${import.meta.env.BASE_URL}Kalamkaval.jpg`, heading: 'Kalamkaval', p: 'UA16+ Malayalam' },
     { id: 6, image: `${import.meta.env.BASE_URL}dhuran.jpg`, heading: 'Dhurandhar', p: 'A Hindi' },
@@ -24,7 +24,7 @@ function App() {
     { id: 9, image: `${import.meta.env.BASE_URL}Anaconda.webp`, heading: 'Anaconda', p: 'UA16+ Tamil, English +2 languages' },
     { id: 10, image:`${import.meta.env.BASE_URL}/RettaThala.jpg`, heading: 'Retta Thala', p: 'UA16+ Tamil' },
     { id: 11, image:`${import.meta.env.BASE_URL}MissionSanta.jpg`, heading: 'Mission Santa', p: 'U  English ' },
-    { id: 12, image: '/Zootopia.jpg', heading: 'Zootopia', p: 'UA7+ Tamil, English ' },
+    { id: 12, image:`${import.meta.env.BASE_URL}Zootopia.jpg`, heading: 'Zootopia', p: 'UA7+ Tamil, English ' },
     // { id: 13, image: '/akhada.jpg', heading: 'Akhada', p: 'UA16+ Tamil, Telugu' },
     // { id: 14, image: '/45.jpg', heading: '45', p: 'UA16+ Tamil, English +2 languages' },
     // { id: 15, image: '/Padayappa.jpg', heading: 'Padayappa', p: 'UA Tamil' },
